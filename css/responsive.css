@@ -1572,8 +1572,20 @@
   }
 
   .plan-main {
-    margin-top: 30px;
+    margin-top: 0px;
   }
+
+  .plan-item{
+    margin-top: 80px;
+  }
+
+  .plan-item:hover {
+    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -o-transform: translateY(-30px);
+}
 
   .plan-list {
     padding-left: 0;
@@ -1587,11 +1599,6 @@
     margin: 15px 10px;
   }
 
-  .plan-list .mid {
-    width: 55px;
-    height: 30px;
-  }
-
   .plan-list .mid::after {
     left: 5px;
     width: 22px;
@@ -1600,73 +1607,16 @@
 
   .plan-item {
     padding: 20px;
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-  }
-
-  .item-head h3 {
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
   }
 
   .item-content ul li span {
     font-size: 16px;
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
   }
 
   .item-content ul li i {
     padding-right: 10px;
   }
 
-  .plan-item:hover {
-    background-color: #fff;
-  }
-
-  .plan-item:hover .p-inner {
-    color: #8454f5;
-  }
-
-  .plan-item:hover h3,
-  .plan-item:hover span,
-  #plan .active h3,
-  #plan .active span {
-    color: #29313d;
-  }
-
-  #plan .active .p-inner {
-    color: #8454f5;
-  }
-
-  #plan .active {
-    background-color: #fff;
-    margin: 30px 0;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-  }
-
-  #plan .active button {
-    background-color: rgba(132, 84, 245, 0.1);
-    color: #8454f5;
-    border: none;
-  }
-
-  .plan-item:hover button {
-    background-color: rgba(132, 84, 245, 0.1);
-    color: #8454f5;
-  }
   /* plan area end */
 
   /* plan area start */
