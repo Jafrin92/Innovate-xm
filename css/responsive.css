@@ -1512,12 +1512,14 @@
   /* goals area start */
   #goals {
     padding-top: 50px;
+    padding-bottom: 50px;
     margin-bottom: 50px;
   }
 
   .goal-bg {
     top: 0;
     z-index: -1;
+    width: 100%;
   }
 
   .goal-img {
@@ -1575,7 +1577,7 @@
     margin-top: 0px;
   }
 
-  .plan-item{
+  .plan-item {
     margin-top: 80px;
   }
 
@@ -1585,7 +1587,7 @@
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     -o-transform: translateY(-30px);
-}
+  }
 
   .plan-list {
     padding-left: 0;
